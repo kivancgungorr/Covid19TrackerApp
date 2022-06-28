@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Covid19TrackerApp</string>
+    <string name="search">Arama</string>
+    <string name="continent">Kıta</string>
+    <string name="country">Şehir :-   </string>
+    <string name="population">Populasyon</string>
+    <string name="covid_19_cases">Covid-19 Vakaları</string>
+    <string name="ne_w">Yeni</string>
+    <string name="active">Aktif</string>
+    <string name="critical">Kritik</string>
+    <string name="recovered">İyileşmiş</string>
+</resources>
