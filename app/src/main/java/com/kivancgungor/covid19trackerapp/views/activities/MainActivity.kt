@@ -15,7 +15,7 @@ class MainActivity : BaseActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater).also {
             setContentView(it.root)
         }
-
+        loadLocate()
         replaceFragmentSafely(CountryListFragment())
 
     }
