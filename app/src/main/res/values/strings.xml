@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Covid19TrackerApp</string>
+    <string name="search">Search</string>
+    <string name="continent">Continent</string>
+    <string name="country">Country :-   </string>
+    <string name="population">Population</string>
+    <string name="covid_19_cases">Covid-19 Cases</string>
+    <string name="ne_w">new</string>
+    <string name="active">Active</string>
+    <string name="critical">Critical</string>
+    <string name="recovered">Recovered</string>
+
+</resources>

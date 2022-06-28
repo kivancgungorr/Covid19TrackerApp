@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:padding="@dimen/dp16">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/border_bottom"
+            android:paddingTop="@dimen/dp10"
+            android:paddingBottom="@dimen/dp10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/country"
+                android:layout_gravity="left"
+                android:textAlignment="textEnd"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp15"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat,RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/tv_country"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_gravity="right"
+                android:textStyle="bold"
+                android:textAlignment="textStart"
+                android:paddingStart="@dimen/dp10"
+                tools:ignore="RtlCompat,RtlHardcoded,RtlSymmetry" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/border_bottom"
+            android:paddingTop="@dimen/dp10"
+            android:paddingBottom="@dimen/dp10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/continent"
+                android:layout_gravity="left"
+                android:textColor="@color/colorDarkGray"
+                android:textSize="@dimen/sp15"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/tv_continent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorLightGray"
+                android:layout_gravity="right"
+                tools:ignore="RtlHardcoded" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/border_bottom"
+            android:paddingTop="@dimen/dp10"
+            android:paddingBottom="@dimen/dp10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/population"
+                android:layout_gravity="left"
+                android:textColor="@color/colorDarkGray"
+                android:textSize="@dimen/sp15"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/tv_population"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorLightGray"
+                android:layout_gravity="right"
+                tools:ignore="RtlHardcoded" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp20"
+            android:textColor="@color/black"
+            android:background="@drawable/border_bottom"
+            android:paddingTop="@dimen/dp10"
+            android:paddingBottom="@dimen/dp10"
+            android:text="@string/covid_19_cases"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/border_bottom"
+            android:paddingTop="@dimen/dp10"
+            android:paddingBottom="@dimen/dp10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/ne_w"
+                android:layout_gravity="left"
+                android:textColor="@color/colorDarkGray"
+                android:textSize="@dimen/sp15"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/tv_newCases"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorLightGray"
+                android:layout_gravity="right"
+                tools:ignore="RtlHardcoded" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/border_bottom"
+            android:paddingTop="@dimen/dp10"
+            android:paddingBottom="@dimen/dp10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/active"
+                android:layout_gravity="left"
+                android:textColor="@color/colorDarkGray"
+                android:textSize="@dimen/sp15"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/tv_activeCases"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorLightGray"
+                android:layout_gravity="right"
+                tools:ignore="RtlHardcoded" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/border_bottom"
+            android:paddingTop="@dimen/dp10"
+            android:paddingBottom="@dimen/dp10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/critical"
+                android:layout_gravity="left"
+                android:textColor="@color/colorDarkGray"
+                android:textSize="@dimen/sp15"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/tv_criticalCases"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorLightGray"
+                android:layout_gravity="right"
+                tools:ignore="RtlHardcoded" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/border_bottom"
+            android:paddingTop="@dimen/dp10"
+            android:paddingBottom="@dimen/dp10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/recovered"
+                android:layout_gravity="left"
+                android:textColor="@color/colorDarkGray"
+                android:textSize="@dimen/sp15"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/tv_recoveredCases"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorLightGray"
+                android:layout_gravity="right"
+                tools:ignore="RtlHardcoded" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
